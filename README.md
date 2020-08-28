@@ -16,3 +16,16 @@ Depois só conferir a imagem criada com o comando:
 Para levantar o serviço basta usar o Docker run:
 
  docker run -ti --name nomeimagem -p 80:8080 -d nomeuserdockerhub/nomerepodockerhub:tag
+ 
+ 
+Criar nova BRANCH no github:
+
+git checkout -b MinhaNovaBrach
+
+Depois, quando quiser subir a branch, faça os commits:
+
+git commit -m 'Comentário do commit da minha nova branch'
+
+Depois, subindo de fato:
+
+git push --set-upstream origin MinhaNovaBrach
